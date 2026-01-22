@@ -1,0 +1,154 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/dungavenhooter",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "dungavenhooter",
+    "name": "Dungavenhooter",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "Fearsome Critter",
+    "tags": [
+      "fearsome-critter",
+      "lumberjack-folklore",
+      "aquatic",
+      "alligator-like",
+      "humorous",
+      "tall-tale"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A mouthless, alligator-like creature that clubs fish to death with its powerful tail, unable to eat them, and eventually starves despite being surrounded by food.",
+      "full": "The Dungavenhooter is one of the most darkly humorous fearsome critters from American lumberjack folklore. This alligator-like creature has a tragic flaw: it was born without a mouth. Unable to eat, it expresses its frustration by violently clubbing fish with its powerful tail. The creature swims through rivers and lakes, killing fish it cannot consume, destined to starve to death despite being surrounded by potential food. The absurd tragedy of the Dungavenhooter represents the fearsome critter tradition's darker humor, presenting a creature defined entirely by futility and frustration."
+    },
+    "etymology": {
+      "origin": "American lumberjack folklore, early 20th century",
+      "meaning": "Unknown; typical nonsense naming of fearsome critters",
+      "first_use": "circa 1910"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Fearsome Critter",
+      "subtype": "Aquatic",
+      "variant": "Rivers and Lakes"
+    },
+    "related_phenomena": []
+  },
+
+  "characteristics": {
+    "physical": {
+      "size": "Alligator-sized",
+      "coloration": ["described as alligator-like"],
+      "features": [
+        {
+          "feature": "No mouth",
+          "description": "Completely lacks any oral opening",
+          "frequency": "always"
+        },
+        {
+          "feature": "Powerful tail",
+          "description": "Muscular tail used as a club",
+          "frequency": "always"
+        },
+        {
+          "feature": "Alligator-like body",
+          "description": "General reptilian appearance similar to alligator or crocodile",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Resembles an alligator but completely lacks a mouth or any means of consuming food"
+    },
+    "abilities": [
+      {
+        "ability": "Tail clubbing",
+        "description": "Uses powerful tail to strike and kill fish",
+        "frequency": "constant",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Swimming",
+        "description": "Navigates rivers and lakes efficiently",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "variable",
+      "disposition": "frustrated and violent",
+      "social_structure": "solitary",
+      "habitat_preference": ["rivers", "lakes", "waterways"],
+      "diet": "Cannot eat; doomed to starvation",
+      "patterns": [
+        "Violently clubs fish with tail",
+        "Cannot consume killed prey",
+        "Expresses frustration through violence",
+        "Inevitably starves to death"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Rivers and lakes in lumber regions of North America",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Lumber camp territories", "Rivers and waterways"]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "1910",
+        "circa": true,
+        "source": "Lumberjack tall tale collections"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "American occupational folklore from lumber camps",
+      "folklore_connections": "Represents darker humor within fearsome critter tradition; themes of futility and frustration"
+    }
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": ["Lumberjack tall tales"],
+      "beliefs": "Symbolizes futile labor and frustration; dark humor typical of hard work environments"
+    },
+    "popular_culture": {
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "cox-1910",
+      "type": "book",
+      "title": "Fearsome Creatures of the Lumberwoods",
+      "authors": ["William T. Cox"],
+      "date": "1910"
+    }
+  ]
+}
