@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/dungavenhooter",
     "maintainers": [
       {
@@ -16,72 +16,121 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "dungavenhooter",
     "name": "Dungavenhooter",
-    "aliases": [],
+    "aliases": [
+      { "name": "Dunganvenhooter", "region": "United States" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Fearsome critter / lumberjack tall tale",
     "tags": [
-      "folklore",
-      "mythology"
+      "fearsome-critter",
+      "american-folklore",
+      "lumberwoods",
+      "tall-tale",
+      "north-america",
+      "swamp"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Dungavenhooter is one of the darkest and most absurdly tragic creatures from American lumberjack folklore.",
-      "full": "The Dungavenhooter is one of the darkest and most absurdly tragic creatures from American lumberjack folklore. This alligator-like beast has one fatal flaw: it has no mouth. Unable to eat, the Dungavenhooter spends its existence swimming through rivers and lakes, violently clubbing fish to death with its powerful tail."
+      "summary": "A fearsome critter of North American lumberjack folklore: a mouthless, alligator-like swamp creature that pounds its victims to vapor with its tail and inhales them through its enormous nostrils.",
+      "full": "The Dungavenhooter is a 'fearsome critter' from the lumber camps of the northeastern and Great Lakes United States. It is described as a large crocodylian beast with no mouth, instead possessing huge nostrils. From cover among brush, the Dungavenhooter ambushes lumberjacks — preferring those who have been drinking — and beats them into a vapour with its powerful tail before inhaling the resulting mist through its nose. The creature is recorded in Henry H. Tryon's 'Fearsome Critters' (1939), part of the small canon of published lumberwoods folklore that includes works by William T. Cox and Art Child."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American lumberjack camp slang of unknown precise derivation; not attested before the early 20th century.",
+      "meaning": "Folk-coined name without a documented gloss; sometimes glossed informally as a play on 'dungeon' / 'hooter'.",
+      "first_use": "Henry H. Tryon, 'Fearsome Critters' (Idlewild Press, 1939)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fearsome critter",
+      "subtype": "Reptilian / crocodylian",
+      "variant": "North American lumberwoods"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hodag", "name": "Hodag", "relationship": "similar", "description": "Wisconsin lumberwoods fearsome critter" },
+      { "id": "agropelter", "name": "Agropelter", "relationship": "similar", "description": "Tree-dwelling fearsome critter that hurls branches at lumberjacks" },
+      { "id": "axehandle-hound", "name": "Axehandle Hound", "relationship": "similar", "description": "Lumber-camp critter with a similarly absurd anatomy" },
+      { "id": "snallygaster", "name": "Snallygaster", "relationship": "similar", "description": "Eastern American folkloric chimera" },
+      { "id": "fearsome-critters", "name": "Fearsome Critters", "relationship": "superset", "description": "Genre of North American lumberjack folklore creatures" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark green", "swamp grey"],
+      "features": [
+        { "feature": "No mouth", "description": "The defining anatomical feature: the Dungavenhooter has no mouth at all", "frequency": "always" },
+        { "feature": "Enormous nostrils", "description": "Outsized nostrils used to inhale prey reduced to vapour", "frequency": "always" },
+        { "feature": "Crocodylian body", "description": "Long, heavy, alligator-like body suited to swamp travel", "frequency": "always" },
+        { "feature": "Powerful tail", "description": "Massive tail used as a club to pulverize prey", "frequency": "always" }
+      ],
+      "morphology": "Large crocodylian quadruped, lacking a mouth but with greatly enlarged nostrils; mass and proportions analogous to a North American alligator."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Tail-clubbing", "description": "Pounds prey to a fine vapour with the tail", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Vapour inhalation", "description": "Inhales the vaporised remains of its victim through its nostrils, in lieu of chewing", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Brush ambush", "description": "Lies in wait behind brush along swamp paths and trails", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Preference for drunk prey", "description": "Reportedly seeks out 'rum-sodden' lumberjacks with particular eagerness, suggesting an attraction to alcoholic vapour", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["swamps", "marshlands", "bogs", "lumber-camp wetlands"],
+      "diet": "Lumberjacks (especially intoxicated ones), reduced to vapour and inhaled",
+      "patterns": [
+        "Waits in concealment in brush near swamp trails",
+        "Strikes lone travellers without warning",
+        "Folklore associates highest activity with stretches of trail near drinking camps"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folkloric range across the swampy lumberwoods of the northeastern United States and the upper Great Lakes, broadly between Maine and Michigan as recorded in Tryon's 1939 catalogue.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "New England",
+        "Maine",
+        "Upper Great Lakes",
+        "Michigan",
+        "Wisconsin"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1939",
+        "circa": false,
+        "source": "Henry H. Tryon, 'Fearsome Critters' (Idlewild Press, 1939)"
+      },
+      "peak_activity_periods": [
+        { "period": "Late 19th – early 20th century", "description": "Era of large-scale eastern and Great Lakes lumber camps that produced the fearsome-critter genre" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "American lumberjack oral tradition: tall tales told around bunkhouse stoves and at meals, recorded only late in the camps' working life.",
+      "earliest_accounts": "Henry H. Tryon's 'Fearsome Critters' (1939) is the earliest verified printed source.",
+      "folklore_connections": "Sits within the wider 'fearsome critters' genre alongside the Hodag, Hugag, Agropelter, Splintercat, Squonk, Sidehill Gouger, and Tripodero."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910-01-01", "event": "William T. Cox publishes 'Fearsome Creatures of the Lumberwoods', the first major catalogue of American lumberjack cryptids; the Dungavenhooter is not included in this earliest edition", "significance": "Genre baseline for fearsome-critter literature", "source": "Cox, W. T. (1910)" },
+      { "date": "1939-01-01", "event": "Henry H. Tryon publishes 'Fearsome Critters' (Idlewild Press, Cornwall, NY), introducing the Dungavenhooter to print", "significance": "Earliest verified print attestation of the Dungavenhooter", "source": "Tryon, H. H. (1939)" }
+    ],
+    "modern_era": "The Dungavenhooter survives as a niche fearsome-critter in cryptozoology field guides, regional tourism material in the upper Midwest and New England, and roleplaying-game and webcomic appearances in contemporary popular culture."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +141,82 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "dungavenhooter-evidence-tryon-1939",
+        "type": "book entry",
+        "name": "'Fearsome Critters' entry on the Dungavenhooter",
+        "date": "1939",
+        "description": "Illustrated entry describing the Dungavenhooter, its anatomy, and hunting method, in Henry H. Tryon's catalogue of lumberwoods critters.",
+        "status": "unverified",
+        "analysis": "Treated as folklore rather than zoological report; the entire 'Fearsome Critters' genre is understood as occupational tall-tale tradition.",
+        "source": "Tryon, H. H. (1939), Idlewild Press"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Occupational tall tale",
+        "description": "The Dungavenhooter is a deliberate lumber-camp invention — a 'greenhorn-scarer' yarn told to new recruits — and is best understood as folklore, not zoology.",
+        "proponents": ["Henry H. Tryon", "William T. Cox", "Folklorists of American occupational lore"],
+        "evidence_cited": ["Pattern of fearsome-critter narratives across all major North American logging regions", "No physical specimens, sightings, or trackways outside printed compendia"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American lumberjack bunkhouse tall tales",
+        "Fearsome-critter genre"
+      ],
+      "stories": [
+        "Tryon's 1939 entry on the Dungavenhooter"
+      ],
+      "beliefs": "Universally treated within the source tradition as a humorous tall tale; the 'belief' is performative, intended to entertain and to haze new arrivals to the camps."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "'Fearsome Critters' — Henry H. Tryon (Idlewild Press, 1939)",
+        "'Fearsome Creatures of the Lumberwoods' — William T. Cox (1910)"
+      ],
       "film_tv": [],
-      "games": [],
-      "other": []
+      "games": [
+        "Featured as a creature in tabletop and indie video-game bestiaries drawing on the fearsome-critter genre"
+      ],
+      "other": [
+        "Roadside-attraction and regional-tourism use in the upper Midwest and Maine"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Henry H. Tryon", "affiliation": "Idlewild Press / forester, Cornwall, NY", "contribution": "Compiled and illustrated the 1939 'Fearsome Critters' catalogue that first published the Dungavenhooter", "period": "1930s" },
+      { "name": "William T. Cox", "affiliation": "Minnesota State Forester", "contribution": "Established the fearsome-critters genre with the 1910 catalogue 'Fearsome Creatures of the Lumberwoods'", "period": "1910s" },
+      { "name": "Loren Coleman", "affiliation": "International Cryptozoology Museum", "contribution": "Catalogued and contextualised North American fearsome critters in modern cryptozoology literature", "period": "1980s–present" }
+    ],
+    "organizations": [
+      { "name": "International Cryptozoology Museum", "url": "https://cryptozoologymuseum.com", "focus": "Cryptozoology curation including the fearsome-critters genre" }
+    ],
+    "ongoing_studies": "No active field research; the Dungavenhooter is studied as folklore rather than zoology."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "tryon-1939", "type": "book", "title": "Fearsome Critters", "authors": ["Henry H. Tryon"], "publication": "Idlewild Press, Cornwall, NY", "date": "1939" },
+    { "id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods, with a Few Desert and Mountain Beasts", "authors": ["William T. Cox"], "publication": "Judd & Detweiler", "date": "1910" },
+    { "id": "wikipedia-dungavenhooter", "type": "website", "title": "Dungavenhooter", "url": "https://en.wikipedia.org/wiki/Dungavenhooter", "accessed": "2026-05-07" },
+    { "id": "wikipedia-fearsome-critters", "type": "website", "title": "Fearsome Critters", "url": "https://en.wikipedia.org/wiki/Fearsome_critters", "accessed": "2026-05-07" }
+  ]
 }
